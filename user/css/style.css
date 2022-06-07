@@ -1,0 +1,76 @@
+
+/*subject.php and tutor.php*/
+.w3-grid-template {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+hr {
+    margin: 0em;
+    border-width: 2px;
+}
+
+@media screen and (max-width: 1000px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/*register.php*/
+.form-container-reg {
+    max-width: 600px;
+    margin: auto;
+}
+
+/*index.php*/
+.banner-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), url("../res/cloud.jpg");
+    height: 50%;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 175px
+}
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.w3-title {
+    font-family: "Franklin Gothic Medium", impact, cursive, sans-serif;
+}
+.w3-bold{
+    font-family: "Bahnschrift SemiBold", rockwell, sans-serif;
+}
+.w3-normal{ 
+    font-family: "Bahnschrift", arial, sans-serif; 
+}
+
