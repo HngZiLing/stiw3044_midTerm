@@ -106,7 +106,7 @@
                     <h5 class = 'w3-bold'>$tutorName</h5></header></header>";
 
                     echo "<img class = 'w3-image' src='../../assets/tutors/$tutorId.jpg'" .
-                    " onerror = this.onerror=null; this.src='src=../res/dfaultTutor.png'"
+                    " onerror = this.onerror=null; this.src='src=../res/defaultTutor.png'"
                     . " style='width:100%;height:250px'>";
 
                     echo "<div class='w3-card-footer w3-container w3-left-align'><hr>
